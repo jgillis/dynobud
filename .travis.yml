@@ -5,7 +5,7 @@ sudo: false
 
 env:
   global:
-    secure: "kbkJf+ukAlZMIcbTD/jIGt6p51nkm2VERZ7jHKQ0betHPyQtBz7Ly43bge4oggRP6s9cDoobFSMendQHTuV5Kyv+BHnQTBpReryOzFMqP3Bm0ZGlZzbn+v2Z1HisDIHGK2kLk3iQyO4S8+Pc/yqbJYVf4iUxh+tUoB11/aCmE3k="
+    secure: "KvMG4VORV7Ja09shvmsMpiaRMoWqupR76dKxOd7W28I//F4YDIn5ZZefM4aoXsmRgs4G9YqloU8JjVpHutZARmKn2drUwHVMA+96iKb9eDODwZaKXgFYsrQIX5c/OgO8ZpsXynD2daqH3bMK8Mjz1+4fjbFToPFXHggxqQuHm1U="
 
 
 # Caching so the next build will be fast too.
