@@ -63,7 +63,8 @@ before_install:
  - export LD_LIBRARY_PATH=/home/travis/build/libhsl
  - pushd ../../ && git clone https://github.com/casadi/testbot.git
  - pushd testbot && recipes/setup.sh && popd
- - travis_retry testbot/recipes/fetch.sh libhsl.tar.gz && mkdir libhsl && tar -xvf libhsl.tar.gz -C libhsl
+ - slurp hsl
+ #- travis_retry testbot/recipes/fetch.sh libhsl.tar.gz && mkdir libhsl && tar -xvf libhsl.tar.gz -C libhsl
  - mkdir -p /home/travis/build/casadi/testbot
  - ls -al
  - popd
